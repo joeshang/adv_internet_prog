@@ -1,3 +1,9 @@
+/*
+ * File: ll.c
+ * Author: Joe Shang (ID:1101220731)
+ * Brief: Implementation of printing file/directory detail informantion.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -180,7 +186,7 @@ void print_dir_stat(char *dir_name)
 
 	while ((entry = readdir(dp)) != NULL)
 	{
-		file_path = (char *)malloc((strlen(dir_name) + 1 + strlen(entry->d_name) + 1) * sizeof(char *));
+		file_path = (char *)malloc((strlen(dir_name) + 1 + strlen(entry->d_name) + 1) * sizeof(char));
 		strcpy(file_path, dir_name);
 		strcat(file_path, "/");
 		strcat(file_path, entry->d_name);

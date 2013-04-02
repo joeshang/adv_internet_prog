@@ -1,3 +1,9 @@
+/*
+ * File: ll.h
+ * Author: Joe Shang (ID:1101220731)
+ * Brief: Implementation of printing file/directory detail informantion.
+ */
+
 #ifndef _LL_H_
 #define _LL_H_
 

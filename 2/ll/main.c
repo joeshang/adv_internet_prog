@@ -1,3 +1,9 @@
+/*
+ * File: main.c
+ * Author: Joe Shang (ID:1101220731)
+ * Brief: Main Program
+ */
+
 #include <stdio.h>
 #include <sys/stat.h>
 #include "ll.h"
